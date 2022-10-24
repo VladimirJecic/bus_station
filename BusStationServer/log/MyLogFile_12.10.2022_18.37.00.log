@@ -1,0 +1,51 @@
+okt 12, 2022 6:37:09 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 12, 2022 6:37:09 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 12, 2022 6:37:09 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:55406
+okt 12, 2022 6:37:09 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:55405
+okt 12, 2022 6:37:10 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 12, 2022 6:37:11 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 12, 2022 6:37:20 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 12, 2022 6:37:20 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 12, 2022 6:37:30 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 12, 2022 6:37:30 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 12, 2022 6:39:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 12, 2022 6:39:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Preconditions not satisfied :SimpleValueConstraintException
+ConstraintsDeparture:
+maxPassengerNumber must be a positive number
+okt 12, 2022 6:40:39 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 12, 2022 6:40:39 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 12, 2022 6:45:18 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 12, 2022 6:45:18 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 12, 2022 6:46:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 12, 2022 6:47:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation: Server Error!
+System couldn't save line.
+okt 12, 2022 6:47:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+SEVERE: HandleClientThread Thread-5ended unexpectably: ERROR!
+java.lang.reflect.InvocationTargetException
+okt 12, 2022 6:47:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread notifyClient
+INFO: Server Response sent:SERVER_STOPPED
+okt 12, 2022 6:47:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 12, 2022 6:47:42 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 12, 2022 6:47:42 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

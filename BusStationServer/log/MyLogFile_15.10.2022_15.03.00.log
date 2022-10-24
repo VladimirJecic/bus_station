@@ -1,0 +1,8 @@
+okt 15, 2022 3:03:49 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 15, 2022 3:03:49 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 15, 2022 3:07:41 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 15, 2022 3:07:41 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

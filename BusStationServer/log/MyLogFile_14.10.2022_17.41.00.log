@@ -1,0 +1,68 @@
+okt 14, 2022 5:41:24 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 14, 2022 5:41:24 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 14, 2022 5:41:26 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:56230
+okt 14, 2022 5:41:26 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:56229
+okt 14, 2022 5:41:27 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 14, 2022 5:41:28 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 14, 2022 5:41:31 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 14, 2022 5:41:31 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 14, 2022 5:41:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:41:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:41:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:41:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:41:41 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 14, 2022 5:41:41 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the line.
+okt 14, 2022 5:41:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:41:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:41:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:41:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:42:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 14, 2022 5:42:33 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 14, 2022 5:42:36 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:42:36 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:42:36 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:42:36 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:43:18 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 14, 2022 5:43:18 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the line.
+okt 14, 2022 5:43:22 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:43:22 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:43:22 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:43:22 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:43:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:43:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:43:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:43:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.

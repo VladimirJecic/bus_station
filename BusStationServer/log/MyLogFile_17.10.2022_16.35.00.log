@@ -1,0 +1,46 @@
+okt 17, 2022 4:35:35 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 17, 2022 4:35:35 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 17, 2022 4:35:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:51226
+okt 17, 2022 4:35:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:51225
+okt 17, 2022 4:35:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 17, 2022 4:35:38 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 17, 2022 4:35:43 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 17, 2022 4:35:44 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 17, 2022 4:35:46 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 17, 2022 4:35:46 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 17, 2022 4:35:46 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 17, 2022 4:35:46 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 17, 2022 4:35:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 17, 2022 4:35:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 17, 2022 4:35:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 17, 2022 4:35:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 17, 2022 4:37:32 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_DEPARTURES
+okt 17, 2022 4:37:32 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't save departure(s):
+Preconditions not satisfied:ComplexValueConstraintException
+ConstraintsDeparture:
+departure time must be sooner than arrival time
+okt 17, 2022 4:38:01 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_DEPARTURES
+okt 17, 2022 4:38:01 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't save departure(s):
+Preconditions not satisfied:ComplexValueConstraintException
+ConstraintsDeparture:
+departure time must be sooner than arrival time

@@ -1,0 +1,72 @@
+okt 14, 2022 5:32:44 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 14, 2022 5:32:45 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 14, 2022 5:32:47 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:56219
+okt 14, 2022 5:32:47 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:56218
+okt 14, 2022 5:32:47 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 14, 2022 5:32:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 14, 2022 5:32:52 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 14, 2022 5:32:52 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 14, 2022 5:32:55 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:32:55 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:32:55 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:32:55 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:33:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 14, 2022 5:33:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Postconditions not satisfied :SimpleValueConstraintException
+ConstraintsStop:
+System couldn't delete stop.
+okt 14, 2022 5:33:27 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 14, 2022 5:33:27 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 14, 2022 5:33:27 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 14, 2022 5:40:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:56227
+okt 14, 2022 5:40:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:56226
+okt 14, 2022 5:40:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 14, 2022 5:40:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 14, 2022 5:40:41 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 14, 2022 5:40:42 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 14, 2022 5:40:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 14, 2022 5:40:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 14, 2022 5:40:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 14, 2022 5:40:45 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 14, 2022 5:40:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 14, 2022 5:40:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Postconditions not satisfied :SimpleValueConstraintException
+ConstraintsStop:
+System couldn't delete stop.
+okt 14, 2022 5:41:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 14, 2022 5:41:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-6 ended by User: OK
+okt 14, 2022 5:41:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!

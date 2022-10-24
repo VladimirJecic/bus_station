@@ -1,0 +1,39 @@
+okt 10, 2022 9:32:32 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 10, 2022 9:32:32 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 10, 2022 9:32:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:54606
+okt 10, 2022 9:32:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:54605
+okt 10, 2022 9:32:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 10, 2022 9:32:39 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 10, 2022 9:32:48 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 10, 2022 9:32:48 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the station.
+okt 10, 2022 9:32:53 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 10, 2022 9:32:53 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 10, 2022 9:32:57 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 10, 2022 9:32:57 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 10, 2022 9:33:00 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 10, 2022 9:33:00 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has deleted the station.
+okt 10, 2022 9:33:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 10, 2022 9:33:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 10, 2022 9:33:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 10, 2022 9:33:16 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 10, 2022 9:33:16 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

@@ -1,0 +1,26 @@
+okt 22, 2022 8:29:12 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 22, 2022 8:29:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:Hello Server! You can contact me on port:57098
+okt 22, 2022 8:29:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Hello Client! You're session is active on port:57097
+okt 22, 2022 8:29:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:LOGIN
+okt 22, 2022 8:29:14 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Login Successful!
+okt 22, 2022 8:29:19 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_LINE_LIST
+okt 22, 2022 8:29:20 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Lines are loaded.
+okt 22, 2022 8:29:22 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 8:29:22 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded departures for the selected line
+okt 22, 2022 8:29:23 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 8:29:23 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 8:29:27 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_LINE
+okt 22, 2022 8:29:27 PM rs.ac.bg.fon.ps.communication.ServerMessageHandler handleServer
+INFO: Server response received:SERVER_STOPPED

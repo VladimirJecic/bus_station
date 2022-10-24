@@ -1,0 +1,27 @@
+okt 11, 2022 9:19:12 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 11, 2022 9:19:12 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 11, 2022 9:19:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:54911
+okt 11, 2022 9:19:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:54910
+okt 11, 2022 9:19:16 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 11, 2022 9:19:17 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 11, 2022 9:19:21 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 11, 2022 9:19:21 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 11, 2022 9:19:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 11, 2022 9:19:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 11, 2022 9:19:56 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 11, 2022 9:19:59 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 11, 2022 9:19:59 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

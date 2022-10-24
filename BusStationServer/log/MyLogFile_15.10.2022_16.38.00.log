@@ -1,0 +1,24 @@
+okt 15, 2022 4:38:28 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 15, 2022 4:38:28 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 15, 2022 4:38:34 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:57232
+okt 15, 2022 4:38:34 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:57231
+okt 15, 2022 4:38:35 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 15, 2022 4:38:36 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 15, 2022 4:38:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 15, 2022 4:38:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation: Server Error!
+SAVE STATION
+okt 15, 2022 4:38:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+SEVERE: HandleClientThread Thread-5ended unexpectably: ERROR!
+java.lang.Exception: Unpredicted type of exception
+okt 15, 2022 4:38:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread notifyClient
+INFO: Server Response sent:SERVER_STOPPED
+okt 15, 2022 4:38:54 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!

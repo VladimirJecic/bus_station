@@ -1,0 +1,35 @@
+okt 12, 2022 11:59:09 AM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 12, 2022 11:59:09 AM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 12, 2022 11:59:22 AM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:55221
+okt 12, 2022 11:59:22 AM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:55220
+okt 12, 2022 11:59:23 AM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 12, 2022 11:59:24 AM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 12, 2022 11:59:42 AM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 12, 2022 11:59:42 AM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the station.
+okt 12, 2022 12:00:24 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 12, 2022 12:00:24 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 12, 2022 12:02:00 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 12, 2022 12:02:00 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the line.
+okt 12, 2022 12:02:48 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 12, 2022 12:02:48 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 12, 2022 12:04:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 12, 2022 12:04:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 12, 2022 12:04:07 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!

@@ -1,0 +1,38 @@
+okt 12, 2022 5:20:57 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 12, 2022 5:20:57 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 12, 2022 5:21:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:55352
+okt 12, 2022 5:21:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:55351
+okt 12, 2022 5:21:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 12, 2022 5:21:04 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 12, 2022 5:21:08 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 12, 2022 5:21:08 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 12, 2022 5:21:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_LINES
+okt 12, 2022 5:21:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found lines for requested search values
+okt 12, 2022 5:21:21 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_LINES
+okt 12, 2022 5:21:21 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found lines for requested search values
+okt 12, 2022 5:21:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_LINE
+okt 12, 2022 5:21:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:DELETE_LINE
+okt 12, 2022 5:22:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 12, 2022 5:22:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread notifyClient
+INFO: Server Response sent:SERVER_STOPPED
+okt 12, 2022 5:22:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 12, 2022 5:22:02 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 12, 2022 5:22:02 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

@@ -1,0 +1,98 @@
+okt 16, 2022 4:13:57 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 16, 2022 4:13:57 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 16, 2022 4:14:04 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:49757
+okt 16, 2022 4:14:04 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:49756
+okt 16, 2022 4:14:04 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 16, 2022 4:14:06 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 16, 2022 4:14:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 16, 2022 4:14:12 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 16, 2022 4:14:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 16, 2022 4:14:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the station.
+okt 16, 2022 4:14:34 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 16, 2022 4:14:34 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Preconditions not satisfied:SimpleValueConstraintException
+ConstraintsStation:
+System couldn't save station.
+A station with this name already exists.
+Use a different name instead.
+okt 16, 2022 4:15:06 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 16, 2022 4:15:06 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 16, 2022 4:15:31 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:15:32 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:15:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 16, 2022 4:15:37 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Preconditions not satisfied:StructureConstraintException
+ConstraintsStation:
+System couldn't delete station, because it is refferenced in line 
+okt 16, 2022 4:15:42 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:15:42 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:15:47 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:15:47 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:17:02 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 16, 2022 4:17:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has deleted the station.
+okt 16, 2022 4:17:14 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 16, 2022 4:17:14 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't delete station
+okt 16, 2022 4:18:40 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:18:40 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:18:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE STATION
+okt 16, 2022 4:18:49 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has saved the station.
+okt 16, 2022 4:18:53 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 16, 2022 4:18:53 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 16, 2022 4:19:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:19:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:19:40 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 16, 2022 4:19:40 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has deleted the station.
+okt 16, 2022 4:21:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:FIND_STATIONS
+okt 16, 2022 4:21:25 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System found stations for requested search values
+okt 16, 2022 4:21:29 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:DELETE_STATION
+okt 16, 2022 4:21:29 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation:
+Preconditions not satisfied:StructureConstraintException
+ConstraintsStation:
+System couldn't delete station, because it is refferenced in line 
+okt 16, 2022 4:22:44 PM rs.ac.bg.fon.ps.thread.HandleClientThread lambda$scheduledCheckAlive$0
+INFO: Client has stoped responding to heartBeat messages
+
+okt 16, 2022 4:22:44 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+INFO: HandleClientThread Thread-5 ended by User: OK
+okt 16, 2022 4:22:44 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!

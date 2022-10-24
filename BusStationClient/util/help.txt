@@ -1,0 +1,20 @@
+(1)Login as different Employee:
+click Log Out(Button) -> enter different username and password -> click Log In(Button)
+(2)Insert new Station :
+from menu Station -> option New(Button) -> insert new Name -> click Save(Button)
+(3)Delete Station :
+from menu Station -> option Delete(Button) -> choose Station -> click Delete(Button)
+(4)Insert new Line:
+from menu Line -> option New(Button) -> insert new Line data -> click Save(Button)
+(5)Edit Line:
+from menu Line -> option Edit(Button) -> choose the Line you wish to edit -> click Edit(Button) -> after editing data -> click Save(Button)
+(6)Delete Line:
+from menu Line -> option Delete(Button) -> choose the Line you wish to delete -> click Delete(Button)
+(7)Insert new Departure :
+from menu Departure -> option New(Button) -> choose the Line you wish to add Departure to -> click Edit(Button) ->click Add Departure -> after inserting data -> click Save(Button)
+(8)Delete Departure:
+from menu Departure -> option Delete(Button) -> choose the Line you wish to delete Departure from -> click Edit(Button) -> after choosing Departure -> click Delete Departure(Button)
+(9)Insert new Ticket:
+from menu Ticket -> option New(Button) -> choose the Line you wish to add new Ticket to -> click Edit(Button) -> after choosing Departure -> click New Ticket(Button) -> click Add Ticket-> after inserting data -> click Save(Button)
+(10)Delete Ticket:
+from menu Ticket -> option Delete(Button) -> choose the Line you wish to delete Ticket from -> click Edit(Button) -> after choosing Departure -> click Delete Ticket(Button) -> after choosing Ticket -> click Delete(Button)

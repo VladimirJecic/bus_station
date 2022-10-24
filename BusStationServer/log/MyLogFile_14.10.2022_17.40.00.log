@@ -1,0 +1,9 @@
+okt 14, 2022 5:40:35 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 14, 2022 5:40:35 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 14, 2022 5:40:35 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+SEVERE: ServerThread ended unexpectably:
+Address already in use: JVM_Bind
+okt 14, 2022 5:40:35 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

@@ -1,0 +1,67 @@
+okt 22, 2022 8:38:02 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 22, 2022 8:38:02 PM rs.ac.bg.fon.ps.view.controller.MainController startServer
+INFO: ServerThread STARTED!
+okt 22, 2022 8:38:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Client introduction received: Hello Server! You can contact me on port:57130
+okt 22, 2022 8:38:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread introduction
+INFO: Server response sent:Hello Client! You're session is active on port:57129
+okt 22, 2022 8:38:03 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:LOGIN
+okt 22, 2022 8:38:05 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Login Successful!
+okt 22, 2022 8:38:08 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_LINE_LIST
+okt 22, 2022 8:38:08 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Lines are loaded.
+okt 22, 2022 8:38:11 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 8:38:11 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System has loaded departures for the selected line
+okt 22, 2022 8:38:11 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:GET_STATION_LIST
+okt 22, 2022 8:38:11 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:Stations are loaded.
+okt 22, 2022 8:38:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Client Request received:SAVE_LINE
+okt 22, 2022 8:38:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClientRequest
+INFO: Server Response sent:System couldn't execute operation: Server Error!
+System couldn't save line!
+okt 22, 2022 8:38:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread handleClient
+SEVERE: HandleClientThread Thread-4ended unexpectably: ERROR!
+
+rs.ac.bg.fon.ps.exception.constraint.SOException: java.lang.reflect.InvocationTargetException
+	at rs.ac.bg.fon.ps.controller.Controller.saveLine(Controller.java:103)
+	at rs.ac.bg.fon.ps.thread.HandleClientThread.handleClientRequest(HandleClientThread.java:195)
+	at rs.ac.bg.fon.ps.thread.HandleClientThread.handleClient(HandleClientThread.java:144)
+	at rs.ac.bg.fon.ps.thread.HandleClientThread.run(HandleClientThread.java:74)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at rs.ac.bg.fon.ps.operation.impl.SaveLineSO.executeSO(SaveLineSO.java:75)
+	at rs.ac.bg.fon.ps.operation.AbstractSO.generalExecuteSO(AbstractSO.java:51)
+	at rs.ac.bg.fon.ps.controller.Controller.saveLine(Controller.java:101)
+	... 3 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1-6' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:975)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1062)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1383)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1047)
+	at rs.ac.bg.fon.ps.repository.db.impl.RepositoryDbGeneric.executeUpdate(RepositoryDbGeneric.java:226)
+	at rs.ac.bg.fon.ps.repository.db.impl.RepositoryDbGeneric.insertRecord(RepositoryDbGeneric.java:65)
+	... 10 more
+
+okt 22, 2022 8:38:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread notifyClient
+INFO: Server Response sent:SERVER_STOPPED
+okt 22, 2022 8:38:15 PM rs.ac.bg.fon.ps.thread.HandleClientThread run
+INFO: HandleClientThread STOPPED!
+okt 22, 2022 8:40:11 PM rs.ac.bg.fon.ps.thread.ServerThread startServer
+INFO: ServerThread ended by User: OK
+okt 22, 2022 8:40:11 PM rs.ac.bg.fon.ps.thread.ServerThread run
+INFO: ServerThread STOPPED!

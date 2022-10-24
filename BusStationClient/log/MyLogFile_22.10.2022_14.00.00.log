@@ -1,0 +1,100 @@
+okt 22, 2022 2:00:12 PM rs.ac.bg.fon.ps.logger.MyLogger setupLogger
+INFO: Logger Initialized
+okt 22, 2022 2:00:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:Hello Server! You can contact me on port:55865
+okt 22, 2022 2:00:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Hello Client! You're session is active on port:55864
+okt 22, 2022 2:00:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:LOGIN
+okt 22, 2022 2:00:12 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Login Successful!
+okt 22, 2022 2:00:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_LINE_LIST
+okt 22, 2022 2:00:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Lines are loaded.
+okt 22, 2022 2:00:21 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 2:00:21 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded departures for the selected line
+okt 22, 2022 2:00:21 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:00:21 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:01:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_DEPARTURES
+okt 22, 2022 2:01:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System couldn't save departure(s):
+Preconditions not satisfied:SimpleValueConstraintException
+ConstraintsDeparture:
+maxPassengerNumber must be a positive number
+okt 22, 2022 2:03:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_DEPARTURES
+okt 22, 2022 2:03:18 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has saved departure(s)
+okt 22, 2022 2:03:50 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:03:50 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:05:11 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_LINE
+okt 22, 2022 2:05:11 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System couldn't save line!:
+Preconditions not satisfied:ComplexValueConstraintException
+ConstraintsDeparture:
+departure time must be sooner than arrival time
+okt 22, 2022 2:05:30 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_LINE
+okt 22, 2022 2:05:30 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has saved the line!
+okt 22, 2022 2:05:47 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:05:47 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:05:54 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_LINE_LIST
+okt 22, 2022 2:05:54 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Lines are loaded.
+okt 22, 2022 2:05:59 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 2:05:59 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded departures for the selected line
+okt 22, 2022 2:05:59 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:05:59 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:06:05 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 2:06:05 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded departures for the selected line
+okt 22, 2022 2:06:05 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:06:05 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:06:40 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_TICKETS_FOR_DEPARTURE
+okt 22, 2022 2:06:40 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded tickets for the selected departure
+okt 22, 2022 2:06:41 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:06:41 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:07:54 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:SAVE_TICKET
+okt 22, 2022 2:07:54 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has saved the ticket.
+okt 22, 2022 2:08:36 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_DEPARTURES_FOR_LINE
+okt 22, 2022 2:08:36 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:System has loaded departures for the selected line
+okt 22, 2022 2:08:36 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_STATION_LIST
+okt 22, 2022 2:08:36 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Stations are loaded.
+okt 22, 2022 2:09:39 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Client Request sent:GET_LINE_LIST
+okt 22, 2022 2:09:39 PM rs.ac.bg.fon.ps.communication.Communication communicate
+INFO: Server Response received:Lines are loaded.
+okt 22, 2022 2:11:41 PM rs.ac.bg.fon.ps.view.controller.impl.MainController cancelForm
+INFO: Communication with Server ended by User:OK
+okt 22, 2022 2:13:42 PM rs.ac.bg.fon.ps.view.controller.impl.LoginController cancelForm
+INFO: Client Program ended by User:OK
